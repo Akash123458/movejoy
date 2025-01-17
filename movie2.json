@@ -1,0 +1,94 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Kill",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/kill-et00374797-1718179453.jpg",
+      "duration": "1h 45m",
+      "genre": "Action/Thriller",
+      "trailer": "https://www.youtube.com/watch?v=y2HZqeVeBNc",
+      "description": "Army commando Amrit (Lakshya) finds out his true love Tulika (Tanya Maniktala) is en-route, he boards a New Delhi-bound train in a daring quest to derail their eventual separation. But when a gang of knife-wielding thieves led by the ruthless leader (Raghav Juyal) begin to terrorize innocent passengers on his train, Amrit takes them on himself in a death-defying kill-spree to save those around him - turning what should have been a typical commute into an adrenaline-fueled thrill ride."
+    },
+    {
+      "id": "2",
+      "title": "Despicable Me 4",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/despicable-me-4-et00386901-1724235181.jpg",
+      "duration": "1h 34m",
+      "genre": "Family/Comedy",
+      "trailer": "https://www.youtube.com/watch?v=5NUV8F79eOU",
+      "description": "Gru welcomes a new member to the family, Gru Jr., who's intent on tormenting his dad. However, their peaceful existence crashes when criminal mastermind Maxime Le Mal escapes from prison and vows revenge against Gru."
+    },
+    {
+      "id": "3",
+      "title": "Deadpool and Wolverine",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/deadpool-and-wolverine-et00341295-1718018322.jpg",
+      "duration": "2h 7m",
+      "genre": "Action/Comedy",
+      "trailer": "https://www.youtube.com/watch?v=ea94nqoxnVQ&t=7s",
+      "description": "Deadpool and Wolverine team up for a chaotic adventure, blending humor and high-octane action as they take on a new breed of supervillains."
+    },
+    {
+      "id": "4",
+      "title": "Maharaja",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/maharaja-hindi-et00402946-1719504211.jpg",
+      "duration": "2h 21m",
+      "genre": "Action/Thriller",
+      "trailer": "https://www.youtube.com/watch?v=n3ttNeXKPHg",
+      "description": "A powerful story of a royal descendant who must reclaim his kingdom while fighting off modern-day adversaries. A barber`s life revolves only around two aspects: his duty to do his job and his daughter, a budding sports champ. One day, Maharaja finds himself in a police station to file an FIR because Lakshmi, their dustbin, has been stolen. What is actually going on and where does this story lead?"
+    },
+    {
+      "id": "5",
+      "title": "Munjya",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/munjya-et00398936-1716358299.jpg",
+      "duration": "2h 20m",
+      "genre": "Horror/Comedy",
+      "trailer": "https://www.youtube.com/watch?v=8X3uF80H5LU",
+      "description": "A hilarious yet spine-chilling tale of a group of friends who encounter a series of supernatural events during their vacation."
+    },
+    {
+      "id": "6",
+      "title": "Kalki",
+      "poster": "https://preview.redd.it/kalki-2898-a-d-offical-poster-v0-qd7gl7vni0xc1.jpeg?width=1080&crop=smart&auto=webp&s=43300b459bd9245f1822842e78a80fd40b47d779",
+      "duration": "3h 1m",
+      "genre": "Sci-fi/Action",
+      "trailer": "https://www.youtube.com/watch?v=kQDd1AhGIHk&t=37s",
+      "description": "A futuristic epic where the legendary hero Kalki rises to restore balance in a dystopian world plagued by corruption and chaos."
+    },
+    {
+      "id": "7",
+      "title": "Dune: Part Two",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/extra/vertical_logo/mobile/thumbnail/xxlarge/dune-part-two-et00331567-1712646774.jpg",
+      "duration": "2h 46m",
+      "genre": "Sci-fi/Adventure",
+      "trailer": "https://www.youtube.com/watch?v=BrtcovgRb58&t=26s",
+      "description": "The epic continuation of Paul Atreides' journey as he allies with the Fremen to bring down the forces oppressing their planet."
+    },
+    {
+      "id": "8",
+      "title": "Stree 2",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/stree-2-et00364249-1721725490.jpg",
+      "duration": "2h 27m",
+      "genre": "Horror/Comedy",
+      "trailer": "https://www.youtube.com/watch?v=KVnheXywIbY",
+      "description": "After the events of Stree, the town of Chanderi is being haunted again. This time, women are mysteriously abducted by a terrifying headless entity. Once again, it`s up to Bicky and his friends to save their town and loved ones."
+    },
+    {
+      "id": "9",
+      "title": "Bad Newz",
+      "poster": "https://upload.wikimedia.org/wikipedia/en/f/f7/Bad_Newz_poster.jpg",
+      "duration": "2h 20m",
+      "genre": "Comedy/Romance",
+      "trailer": "https://www.youtube.com/watch?v=uV50UfcIT68",
+      "description": "A light-hearted romantic comedy where two mismatched individuals find love in the most unexpected way."
+    },
+    {
+      "id": "10",
+      "title": "Chandu Champion",
+      "poster": "https://assets-in.bmscdn.com/iedb/movies/images/mobile/thumbnail/xlarge/chandu-champion-et00363650-1715754023.jpg",
+      "duration": "2h 22m",
+      "genre": "Sport/Action",
+      "trailer": "https://www.youtube.com/watch?v=IHQQK_Wn5DM",
+      "description": "The inspiring story of Chandu, a small-town boy who rises to become a national champion against all odds."
+    }
+  ]
+}

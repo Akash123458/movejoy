@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css"
+    />
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/toastify-js"
+    ></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const form = document.querySelector("form");
+
+        form.addEventListener("submit", async (event) => {
+          event.preventDefault(); // Prevent default form submission
+
+          // Get form data
+          const username = document.getElementById("Username").value;
+          const name = document.getElementById("Name").value;
+          const email = document.getElementById("Email").value;
+          const password = document.getElementById("password").value;
+          const confirmPassword =
+            document.getElementById("Confirm Password").value;
+
+          // Basic validation
+          if (password !== confirmPassword) {
+            Toastify({
+              text: "Password does not match",
+              duration: 3000,
+              destination: "https://github.com/apvarun/toastify-js",
+              newWindow: true,
+              close: true,
+              gravity: "top",
+              position: "right",
+              stopOnFocus: true,
+              style: {
+                background: "red",
+              },
+              onClick: function () {},
+            }).showToast();
+            return;
+          }
+
+          // Create payload
+          const payload = {
+            username,
+            name,
+            email,
+            password,
+          };
+
+          try {
+            // Send data to the server
+            const response = await fetch(
+              "http://localhost:3000/api/users/register",
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify(payload),
+              }
+            );
+
+            if (response.ok) {
+              const result = await response.json();
+              Toastify({
+                text: "User Registered",
+                duration: 3000,
+                destination: "https://github.com/apvarun/toastify-js",
+                newWindow: true,
+                close: true,
+                gravity: "top",
+                position: "right",
+                stopOnFocus: true,
+                style: {
+                  background: "linear-gradient(to right, #00b09b, #96c93d)",
+                },
+                onClick: function () {},
+              }).showToast();
+              function runAfterDelay() {
+                window.location.href = "login.html";
+              }
+              setTimeout(runAfterDelay, 2000);
+            } else {
+              const error = await response.json();
+              Toastify({
+                text: error.msg,
+                duration: 1000,
+                destination: "https://github.com/apvarun/toastify-js",
+                newWindow: true,
+                close: true,
+                gravity: "top",
+                position: "right",
+                stopOnFocus: true,
+                style: {
+                  background: "red",
+                },
+                onClick: function () {},
+              }).showToast();
+            }
+          } catch (error) {
+            console.error("Error:", error);
+            Toastify({
+              text: error,
+              duration: 1000,
+              destination: "https://github.com/apvarun/toastify-js",
+              newWindow: true,
+              close: true,
+              gravity: "top",
+              position: "right",
+              stopOnFocus: true,
+              style: {
+                background: "red",
+              },
+              onClick: function () {},
+            }).showToast();
+          }
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="box form-box">
+        <header>Sign Up</header>
+        <form action="loginform" method="post">
+          <div class="field input">
+            <label for="Name">Name</label>
+            <input type="text" name="Name" id="Name" required />
+          </div>
+          <div class="field input">
+            <label for="Username">Username</label>
+            <input type="text" name="Username" id="Username" required />
+          </div>
+          <div class="field input">
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" required />
+          </div>
+          <div class="field input">
+            <label for="password">Password</label>
+            <div class="password-container">
+              <input
+                type="password"
+                name="password"
+                class="password"
+                id="password"
+                required
+                maxlength="20"
+              />
+              <img src="eye-close.png" class="toggle-password" />
+            </div>
+          </div>
+          <div class="field input">
+            <label for="Confirm Password">Confirm Password</label>
+            <input
+              type="password"
+              name="Confirm Password"
+              id="Confirm Password"
+              required
+              maxlength="20"
+            />
+          </div>
+          <div class="field">
+            <input
+              type="submit"
+              class="btn"
+              name="submit"
+              value="Submit"
+              required
+            />
+          </div>
+          <div class="links">
+            Already have an account? <a href="login.html"> Login </a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="design"></div>
+    <script src="script.js"></script>
+    <script src="login.js"></script>
+  </body>
+</html>

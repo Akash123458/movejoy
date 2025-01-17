@@ -1,0 +1,774 @@
+{
+  "showtimes": [
+    {
+      "movie_id": "1",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "PVR Cinema",
+              "location": "Teen Haath Naka",
+              "type": "Standard",
+              "times": ["6:00PM", "7:00PM", "9:55PM"]
+            },
+            {
+              "name": "INOX",
+              "location": "Korum Mall",
+              "type": "Standard",
+              "times": ["2:40PM", "3:25PM", "6:35PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Drafthouse Cinema",
+              "location": "South Lamar",
+              "type": "Standard",
+              "times": ["1:00PM", "3:00PM", "5:30PM", "8:30PM"]
+            },
+            {
+              "name": "Royal Talkies",
+              "location": "Grant Road",
+              "type": "Standard",
+              "times": ["1:00PM", "3:00PM", "5:30PM", "8:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "PVR Cinema",
+              "location": "Teen Haath Naka",
+              "type": "Standard",
+              "times": ["2:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "INOX",
+              "location": "Korum Mall",
+              "type": "Standard",
+              "times": ["3:00PM", "6:00PM", "8:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Cinepolis",
+              "location": "Viviana Mall",
+              "type": "IMAX",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "Fun Cinemas",
+              "location": "Thakur Mall",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "7:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "2",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "AMC Metreon",
+              "location": "San Francisco",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "Century 9",
+              "location": "San Francisco",
+              "type": "IMAX",
+              "times": ["10:30AM", "1:30PM", "4:30PM", "7:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Alamo Drafthouse",
+              "location": "New Mission",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            },
+            {
+              "name": "Regal Cinemas",
+              "location": "Stonestown Galleria",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "AMC Metreon",
+              "location": "San Francisco",
+              "type": "IMAX",
+              "times": ["10:00AM", "1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "Century 9",
+              "location": "San Francisco",
+              "type": "Standard",
+              "times": ["11:30AM", "2:30PM", "5:30PM", "8:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Alamo Drafthouse",
+              "location": "New Mission",
+              "type": "IMAX",
+              "times": ["12:30PM", "3:30PM", "6:30PM"]
+            },
+            {
+              "name": "Regal Cinemas",
+              "location": "Stonestown Galleria",
+              "type": "Standard",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "3",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "PVR Oberoi",
+              "location": "Goregaon East",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM", "9:00PM"]
+            },
+            {
+              "name": "INOX",
+              "location": "Inorbit Mall",
+              "type": "IMAX",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Cinepolis",
+              "location": "Oberoi Mall",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "Carnival Cinemas",
+              "location": "Malad",
+              "type": "Standard",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "PVR Oberoi",
+              "location": "Goregaon East",
+              "type": "IMAX",
+              "times": ["11:00AM", "2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "INOX",
+              "location": "Inorbit Mall",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Cinepolis",
+              "location": "Oberoi Mall",
+              "type": "IMAX",
+              "times": ["1:30PM", "4:30PM", "7:30PM"]
+            },
+            {
+              "name": "Carnival Cinemas",
+              "location": "Malad",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "4",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "Regal Cinemas",
+              "location": "Knotting Hill",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM", "9:00PM"]
+            },
+            {
+              "name": "Vue West End",
+              "location": "Leicester Square",
+              "type": "IMAX",
+              "times": ["10:30AM", "1:30PM", "4:30PM", "7:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Odeon Luxe",
+              "location": "Haymarket",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            },
+            {
+              "name": "Everyman Cinemas",
+              "location": "Hampstead",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "Regal Cinemas",
+              "location": "Knotting Hill",
+              "type": "IMAX",
+              "times": ["11:30AM", "2:30PM", "5:30PM"]
+            },
+            {
+              "name": "Vue West End",
+              "location": "Leicester Square",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Odeon Luxe",
+              "location": "Haymarket",
+              "type": "IMAX",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "Everyman Cinemas",
+              "location": "Hampstead",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "5",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "AMC Empire",
+              "location": "Times Square",
+              "type": "Standard",
+              "times": ["12:30PM", "3:30PM", "6:30PM"]
+            },
+            {
+              "name": "Regal Cinemas",
+              "location": "Union Square",
+              "type": "IMAX",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Alamo Drafthouse",
+              "location": "Brooklyn",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            },
+            {
+              "name": "Nitehawk Cinema",
+              "location": "Williamsburg",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "AMC Empire",
+              "location": "Times Square",
+              "type": "IMAX",
+              "times": ["11:00AM", "2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "Regal Cinemas",
+              "location": "Union Square",
+              "type": "Standard",
+              "times": ["12:30PM", "3:30PM", "6:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Alamo Drafthouse",
+              "location": "Brooklyn",
+              "type": "IMAX",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            },
+            {
+              "name": "Nitehawk Cinema",
+              "location": "Williamsburg",
+              "type": "Standard",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "6",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "ArcLight Cinemas",
+              "location": "Hollywood",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "The Grove",
+              "location": "Los Angeles",
+              "type": "IMAX",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Cinemark",
+              "location": "Playa Vista",
+              "type": "Standard",
+              "times": ["11:30AM", "2:30PM", "5:30PM"]
+            },
+            {
+              "name": "Pacific Theatres",
+              "location": "Glendale",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "ArcLight Cinemas",
+              "location": "Hollywood",
+              "type": "IMAX",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            },
+            {
+              "name": "The Grove",
+              "location": "Los Angeles",
+              "type": "Standard",
+              "times": ["12:30PM", "3:30PM", "6:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Cinemark",
+              "location": "Playa Vista",
+              "type": "IMAX",
+              "times": ["10:00AM", "1:00PM", "4:00PM"]
+            },
+            {
+              "name": "Pacific Theatres",
+              "location": "Glendale",
+              "type": "Standard",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "7",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "AMC River East",
+              "location": "Chicago",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            },
+            {
+              "name": "Regal City North",
+              "location": "Chicago",
+              "type": "IMAX",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Music Box Theatre",
+              "location": "Chicago",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            },
+            {
+              "name": "Showplace ICON",
+              "location": "Chicago",
+              "type": "Standard",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "AMC River East",
+              "location": "Chicago",
+              "type": "IMAX",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            },
+            {
+              "name": "Regal City North",
+              "location": "Chicago",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Music Box Theatre",
+              "location": "Chicago",
+              "type": "IMAX",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "Showplace ICON",
+              "location": "Chicago",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "8",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "Beverly Hills Theatre",
+              "location": "Beverly Hills",
+              "type": "Standard",
+              "times": ["10:30AM", "1:30PM", "4:30PM"]
+            },
+            {
+              "name": "Laemmle's Royal",
+              "location": "Santa Monica",
+              "type": "IMAX",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Nuart Theatre",
+              "location": "West LA",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            },
+            {
+              "name": "The Landmark",
+              "location": "Westwood",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "Beverly Hills Theatre",
+              "location": "Beverly Hills",
+              "type": "IMAX",
+              "times": ["12:30PM", "3:30PM", "6:30PM"]
+            },
+            {
+              "name": "Laemmle's Royal",
+              "location": "Santa Monica",
+              "type": "Standard",
+              "times": ["10:00AM", "1:00PM", "4:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Nuart Theatre",
+              "location": "West LA",
+              "type": "IMAX",
+              "times": ["12:30PM", "3:30PM", "6:30PM"]
+            },
+            {
+              "name": "The Landmark",
+              "location": "Westwood",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "9",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "Grand Lake Theatre",
+              "location": "Oakland",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            },
+            {
+              "name": "The New Parkway",
+              "location": "Oakland",
+              "type": "IMAX",
+              "times": ["10:30AM", "1:30PM", "4:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Alameda Theatre",
+              "location": "Alameda",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            },
+            {
+              "name": "Regal Jack London",
+              "location": "Oakland",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "Grand Lake Theatre",
+              "location": "Oakland",
+              "type": "IMAX",
+              "times": ["10:00AM", "1:00PM", "4:00PM"]
+            },
+            {
+              "name": "The New Parkway",
+              "location": "Oakland",
+              "type": "Standard",
+              "times": ["11:30AM", "2:30PM", "5:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Alameda Theatre",
+              "location": "Alameda",
+              "type": "IMAX",
+              "times": ["12:30PM", "3:30PM", "6:30PM"]
+            },
+            {
+              "name": "Regal Jack London",
+              "location": "Oakland",
+              "type": "Standard",
+              "times": ["10:00AM", "1:00PM", "4:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "10",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "Cinemark Century",
+              "location": "Great Mall",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            },
+            {
+              "name": "AMC Mercado",
+              "location": "Santa Clara",
+              "type": "IMAX",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Regal Hacienda",
+              "location": "Dublin",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            },
+            {
+              "name": "Pacific Theatres",
+              "location": "Milpitas",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "Cinemark Century",
+              "location": "Great Mall",
+              "type": "IMAX",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            },
+            {
+              "name": "AMC Mercado",
+              "location": "Santa Clara",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Regal Hacienda",
+              "location": "Dublin",
+              "type": "IMAX",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            },
+            {
+              "name": "Pacific Theatres",
+              "location": "Milpitas",
+              "type": "Standard",
+              "times": ["10:30AM", "1:30PM", "4:30PM"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

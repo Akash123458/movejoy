@@ -1,0 +1,167 @@
+body {
+    overflow-x: hidden;
+    font-family: inter, 'Arial Narrow Bold', sans-serif;
+    background-color: #F2F2F2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.container {
+    margin-top: 22px;
+    margin-bottom: 22px;
+    max-width: 800px;
+    width: 100%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    text-align: center;
+}
+.seatnavbar {
+    position: relative;
+    height: 77px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background: transparent;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+.back-button {
+    background: transparent;
+    text-decoration: none;
+    border: none;
+    color: black;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.back-button i{
+    margin-right: 10px;
+}
+.movie-info {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: left;
+    margin-right: 75%;
+}
+.movie-name {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.movie-genre {
+    display: block;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.seats-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.row-label {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.seat {
+    width: 25px;
+    height: 25px;
+    margin: 0 7px;
+    background-color: white;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: black;
+}
+
+.seat.selected {
+    background-color: green;
+    border-color: green;
+    color: white;
+  
+}
+
+.seat:hover {
+    background-color: green;
+    color: white;
+}
+
+.box {
+    width: 550px;
+    height: 110px;
+    border: solid 5px #000;
+    border-color: transparent transparent #000 transparent;
+    border-radius: 0 0 50% 50% / 0 0 100px 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.box span {
+    position: absolute;
+    top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.summary {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pay-button {
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+.pay-button button {
+    background-color: #28a745;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.pay-button button:hover {
+    background-color: #1f8336;
+}
+

@@ -1,0 +1,774 @@
+{
+  "showtimes": [
+    {
+      "movie_id": "1",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "PVR Andheri",
+              "location": "Andheri",
+              "type": "Standard",
+              "times": ["6:00PM", "7:00PM", "9:55PM"]
+            },
+            {
+              "name": "INOX Malad",
+              "location": "Malad",
+              "type": "Standard",
+              "times": ["2:40PM", "3:25PM", "6:35PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Drafthouse Bandra",
+              "location": "Bandra",
+              "type": "Standard",
+              "times": ["1:00PM", "3:00PM", "5:30PM", "8:30PM"]
+            },
+            {
+              "name": "Royal Talkies Colaba",
+              "location": "Colaba",
+              "type": "Standard",
+              "times": ["1:00PM", "3:00PM", "5:30PM", "8:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "PVR Juhu",
+              "location": "Juhu",
+              "type": "Standard",
+              "times": ["2:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "INOX Megaplex",
+              "location": "Phoenix mall of the Millennium",
+              "type": "Standard",
+              "times": ["3:00PM", "6:00PM", "8:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Cinepolis Viviana",
+              "location": "Viviana Mall",
+              "type": "IMAX",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "Fun Cinemas Ghatkopar",
+              "location": "Ghatkopar",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "7:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "2",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "AMC Borivali",
+              "location": "Borivali",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "Century 9 Bandra",
+              "location": "Bandra",
+              "type": "IMAX",
+              "times": ["10:30AM", "1:30PM", "4:30PM", "7:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Alamo Drafthouse Andheri",
+              "location": "Andheri",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            },
+            {
+              "name": "Regal Cinemas Worli",
+              "location": "Worli",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "Cinepolis: Nexus Seawoods",
+              "location": "Navi Mumbai",
+              "type": "IMAX",
+              "times": ["10:00AM", "1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "INOX Megaplex",
+              "location": "Phoenix Mall",
+              "type": "Standard",
+              "times": ["11:30AM", "2:30PM", "5:30PM", "8:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Alamo Drafthouse Andheri",
+              "location": "Andheri",
+              "type": "IMAX",
+              "times": ["12:30PM", "3:30PM", "6:30PM"]
+            },
+            {
+              "name": "Regal Cinemas Worli",
+              "location": "Worli",
+              "type": "Standard",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "3",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "PVR Goregaon",
+              "location": "Goregaon East",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM", "9:00PM"]
+            },
+            {
+              "name": "INOX Inorbit",
+              "location": "Inorbit Mall",
+              "type": "IMAX",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Cinepolis Oberoi",
+              "location": "Oberoi Mall",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "Carnival Cinemas Malad",
+              "location": "Malad",
+              "type": "Standard",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "PVR Goregaon",
+              "location": "Goregaon East",
+              "type": "IMAX",
+              "times": ["11:00AM", "2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "INOX Inorbit",
+              "location": "Inorbit Mall",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Cinepolis Oberoi",
+              "location": "Oberoi Mall",
+              "type": "IMAX",
+              "times": ["1:30PM", "4:30PM", "7:30PM"]
+            },
+            {
+              "name": "Carnival Cinemas Malad",
+              "location": "Malad",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "4",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "PVR: Infiniti",
+              "location": "Malad Mumbai",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM", "9:00PM"]
+            },
+            {
+              "name": "Miraj V Cinemas",
+              "location": "Dombivali",
+              "type": "IMAX",
+              "times": ["10:30AM", "1:30PM", "4:30PM", "7:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "INOX: Metro Mall",
+              "location": "Kalyan (E)",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            },
+            {
+              "name": "Metro INOX Cinemas",
+              "location": "Marine Lines",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "PVR: Infiniti",
+              "location": "Malad Mumbai",
+              "type": "IMAX",
+              "times": ["10:00AM", "1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "Miraj V Cinemas",
+              "location": "Dombivali",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "INOX: Metro Mall",
+              "location": "Kalyan (E)",
+              "type": "IMAX",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "Metro INOX Cinemas",
+              "location": "Marine Lines",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "5",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "PVR Andheri",
+              "location": "Andheri",
+              "type": "Standard",
+              "times": ["6:00PM", "7:00PM", "9:55PM"]
+            },
+            {
+              "name": "INOX Malad",
+              "location": "Malad",
+              "type": "Standard",
+              "times": ["2:40PM", "3:25PM", "6:35PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Drafthouse Bandra",
+              "location": "Bandra",
+              "type": "Standard",
+              "times": ["1:00PM", "3:00PM", "5:30PM", "8:30PM"]
+            },
+            {
+              "name": "Royal Talkies Colaba",
+              "location": "Colaba",
+              "type": "Standard",
+              "times": ["1:00PM", "3:00PM", "5:30PM", "8:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "PVR Juhu",
+              "location": "Juhu",
+              "type": "Standard",
+              "times": ["2:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "INOX Megaplex",
+              "location": "Phoenix mall of the Millennium",
+              "type": "Standard",
+              "times": ["3:00PM", "6:00PM", "8:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Cinepolis Viviana",
+              "location": "Viviana Mall",
+              "type": "IMAX",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "Fun Cinemas Ghatkopar",
+              "location": "Ghatkopar",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "7:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "6",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "AMC Borivali",
+              "location": "Borivali",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "Century 9 Bandra",
+              "location": "Bandra",
+              "type": "IMAX",
+              "times": ["10:30AM", "1:30PM", "4:30PM", "7:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Alamo Drafthouse Andheri",
+              "location": "Andheri",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            },
+            {
+              "name": "Regal Cinemas Worli",
+              "location": "Worli",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "AMC Borivali",
+              "location": "Borivali",
+              "type": "IMAX",
+              "times": ["10:00AM", "1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "Century 9 Bandra",
+              "location": "Bandra",
+              "type": "Standard",
+              "times": ["11:30AM", "2:30PM", "5:30PM", "8:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Alamo Drafthouse Andheri",
+              "location": "Andheri",
+              "type": "IMAX",
+              "times": ["12:30PM", "3:30PM", "6:30PM"]
+            },
+            {
+              "name": "Regal Cinemas Worli",
+              "location": "Worli",
+              "type": "Standard",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "7",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "PVR Goregaon",
+              "location": "Goregaon East",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM", "9:00PM"]
+            },
+            {
+              "name": "INOX Inorbit",
+              "location": "Inorbit Mall",
+              "type": "IMAX",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Cinepolis Oberoi",
+              "location": "Oberoi Mall",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "Carnival Cinemas Malad",
+              "location": "Malad",
+              "type": "Standard",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "PVR Goregaon",
+              "location": "Goregaon East",
+              "type": "IMAX",
+              "times": ["11:00AM", "2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "INOX Inorbit",
+              "location": "Inorbit Mall",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Cinepolis Oberoi",
+              "location": "Oberoi Mall",
+              "type": "IMAX",
+              "times": ["1:30PM", "4:30PM", "7:30PM"]
+            },
+            {
+              "name": "Carnival Cinemas Malad",
+              "location": "Malad",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "8",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "PVR: Infiniti",
+              "location": "Malad Mumbai",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM", "9:00PM"]
+            },
+            {
+              "name": "Miraj V Cinemas",
+              "location": "Dombivali",
+              "type": "IMAX",
+              "times": ["10:30AM", "1:30PM", "4:30PM", "7:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "INOX: Metro Mall",
+              "location": "Kalyan (E)",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM"]
+            },
+            {
+              "name": "Metro INOX Cinemas",
+              "location": "Marine Lines",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "PVR: Infiniti",
+              "location": "Malad Mumbai",
+              "type": "IMAX",
+              "times": ["10:00AM", "1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "Miraj V Cinemas",
+              "location": "Dombivali",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "INOX: Metro Mall",
+              "location": "Kalyan (E)",
+              "type": "IMAX",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "Metro INOX Cinemas",
+              "location": "Marine Lines",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "9",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "PVR Andheri",
+              "location": "Andheri",
+              "type": "Standard",
+              "times": ["6:00PM", "7:00PM", "9:55PM"]
+            },
+            {
+              "name": "INOX Malad",
+              "location": "Malad",
+              "type": "Standard",
+              "times": ["2:40PM", "3:25PM", "6:35PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Drafthouse Bandra",
+              "location": "Bandra",
+              "type": "Standard",
+              "times": ["1:00PM", "3:00PM", "5:30PM", "8:30PM"]
+            },
+            {
+              "name": "Royal Talkies Colaba",
+              "location": "Colaba",
+              "type": "Standard",
+              "times": ["1:00PM", "3:00PM", "5:30PM", "8:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "PVR Juhu",
+              "location": "Juhu",
+              "type": "Standard",
+              "times": ["2:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "INOX Megaplex",
+              "location": "Phoenix mall of the Millennium",
+              "type": "Standard",
+              "times": ["3:00PM", "6:00PM", "8:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Cinepolis Viviana",
+              "location": "Viviana Mall",
+              "type": "IMAX",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "Fun Cinemas Ghatkopar",
+              "location": "Ghatkopar",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "7:00PM"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "movie_id": "10",
+      "dates": [
+        {
+          "date": "Aug 18",
+          "day": "Today",
+          "cinemas": [
+            {
+              "name": "AMC Borivali",
+              "location": "Borivali",
+              "type": "Standard",
+              "times": ["11:00AM", "2:00PM", "5:00PM", "8:00PM"]
+            },
+            {
+              "name": "Century 9 Bandra",
+              "location": "Bandra",
+              "type": "IMAX",
+              "times": ["10:30AM", "1:30PM", "4:30PM", "7:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 19",
+          "day": "Fri",
+          "cinemas": [
+            {
+              "name": "Alamo Drafthouse Andheri",
+              "location": "Andheri",
+              "type": "Standard",
+              "times": ["12:00PM", "3:00PM", "6:00PM"]
+            },
+            {
+              "name": "Regal Cinemas Worli",
+              "location": "Worli",
+              "type": "Standard",
+              "times": ["1:00PM", "4:00PM", "7:00PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 20",
+          "day": "Sat",
+          "cinemas": [
+            {
+              "name": "AMC Borivali",
+              "location": "Borivali",
+              "type": "IMAX",
+              "times": ["10:00AM", "1:00PM", "4:00PM", "7:00PM"]
+            },
+            {
+              "name": "Century 9 Bandra",
+              "location": "Bandra",
+              "type": "Standard",
+              "times": ["11:30AM", "2:30PM", "5:30PM", "8:30PM"]
+            }
+          ]
+        },
+        {
+          "date": "Aug 21",
+          "day": "Sun",
+          "cinemas": [
+            {
+              "name": "Alamo Drafthouse Andheri",
+              "location": "Andheri",
+              "type": "IMAX",
+              "times": ["12:30PM", "3:30PM", "6:30PM"]
+            },
+            {
+              "name": "Regal Cinemas Worli",
+              "location": "Worli",
+              "type": "Standard",
+              "times": ["2:00PM", "5:00PM", "8:00PM"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

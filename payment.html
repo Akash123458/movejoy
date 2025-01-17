@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://js.stripe.com/v3/"></script>
+    <title>Stripe Payment</title>
+    <style>
+      .StripeElement {
+        box-sizing: border-box;
+        height: 40px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        background-color: white;
+      }
+      .StripeElement--invalid {
+        border-color: #fa755a;
+      }
+      .StripeElement--complete {
+        border-color: #4caf50;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Payment</h1>
+    <form id="payment-form">
+      <div id="card-element" class="StripeElement"></div>
+      <button type="submit"></button>
+      <div id="error-message" role="alert"></div>
+    </form>
+
+    <script>
+      const stripe = Stripe(
+        "pk_test_51OhlclSGBHW2aeqCx0d4ZK9W2Lx4RDk7Qg2uTyTCxyEuy1widBqdXC6fc3WLcOJdKAhx4KP4E4Zn6i272IuL6TE000WZNNGUZK"
+      ); // Your Stripe publishable key
+      const elements = stripe.elements();
+      const cardElement = elements.create("card");
+      cardElement.mount("#card-element");
+
+      const form = document.getElementById("payment-form");
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+
+        // Call your backend to create the PaymentIntent
+        const response = await fetch(
+          "http://localhost:3000/create-payment-intent",
+          {
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify({ amount: 1000 }), // Amount in cents
+          }
+        );
+
+        const { clientSecret } = await response.json();
+
+        const { error, paymentIntent } = await stripe.confirmCardPayment(
+          clientSecret,
+          {
+            payment_method: {
+              card: cardElement,
+              billing_details: {
+                name: "Customer Name",
+              },
+            },
+          }
+        );
+
+        const errorMessage = document.getElementById("error-message");
+        if (error) {
+          errorMessage.textContent = error.message;
+        } else if (paymentIntent.status === "succeeded") {
+          errorMessage.textContent = "Payment succeeded!";
+        }
+      });
+    </script>
+  </body>
+</html>

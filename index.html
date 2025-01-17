@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Movies Website</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-list">
+        <div class="logo">
+          <img src="logo.png" alt="logo" />
+          <h1 class="heading">Movejoy</h1>
+        </div>
+        <div class="nav-item">
+          <li><a href="index.html">Home</a></li>
+          <li><a id="movie" href="#movies">Movies</a></li>
+          <li>
+            <a id="location" href="#"
+              ><i class="fa-solid fa-location-dot"></i> Thane</a
+            >
+          </li>
+          <!-- <div id="locationModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <h2>Select Your City</h2>
+              <li class="city-option">Mumbai</li>
+              <li class="city-option">Pune</li>
+              <li class="city-option">Nashik</li>
+              <li class="city-option">Thane</li>
+            </div>
+          </div> -->
+          <li class="login-item">
+            <a href="login.html" id="log">Login</a>
+            <ul id="dropdown-menu">
+              <li>
+                <button
+                  onclick="handleLogOut()"
+                  class="dropdown-button"
+                  id="logout"
+                >
+                  Log Out
+                </button>
+              </li>
+              <li>
+                <button
+                  onclick="handleTicket()"
+                  class="dropdown-button"
+                  id="Ticket"
+                >
+                  Ticket
+                </button>
+              </li>
+            </ul>
+          </li>
+        </div>
+      </ul>
+    </nav>
+
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <!-- First Slide -->
+        <div class="swiper-slide">
+          <div class="image">
+            <div class="black">
+              <h1>Deadpool & Wolverine</h1>
+              <h3>RATING : 8.1/10</h3>
+              <div class="genre">
+                <a href="#" class="category">Action</a>
+                <a href="#" class="category">Comedy </a>
+              </div>
+              <div class="swiper-btn">
+                <a href="movie_pg1.html#3"
+                  ><button type="button">Book Ticket</button></a
+                >
+                <a href="https://www.youtube.com/watch?v=ea94nqoxnVQ"
+                  ><button type="button">Watch Trailer</button></a
+                >
+              </div>
+            </div>
+            <img src="swiper_img/deadpool.jpg" />
+          </div>
+        </div>
+
+        <!-- Second Slide -->
+        <div class="swiper-slide">
+          <div class="image">
+            <div class="black">
+              <h1>Despicable Me 4</h1>
+              <h3>RATING : 6.2/10</h3>
+
+              <div class="genre">
+                <a href="#" class="category">Family</a>
+                <a href="#" class="category">Comedy </a>
+              </div>
+              <div class="swiper-btn">
+                <a href="movie_pg1.html#2"
+                  ><button type="button">Book Ticket</button></a
+                >
+                <a href="https://www.youtube.com/watch?v=5NUV8F79eOU"
+                  ><button type="button">Watch Trailer</button></a
+                >
+              </div>
+            </div>
+            <img src="swiper_img/despicable-me-4.jpg" />
+          </div>
+        </div>
+
+        <!-- Third Slide -->
+        <div class="swiper-slide">
+          <div class="image">
+            <div class="black">
+              <h1>Dune: Part Two</h1>
+              <h3>RATING : 8.5/10</h3>
+              <div class="genre">
+                <a href="#" class="category">Sci-fi</a>
+                <a href="#" class="category">Adventure </a>
+              </div>
+              <div class="swiper-btn">
+                <a href="movie_pg1.html#7"
+                  ><button type="button">Book Ticket</button></a
+                >
+                <a href="https://www.youtube.com/watch?v=BrtcovgRb58"
+                  ><button type="button">Watch Trailer</button></a
+                >
+              </div>
+            </div>
+            <img src="swiper_img/dune-part-2.jpg" />
+          </div>
+        </div>
+
+        <div class="swiper-slide">
+          <div class="image">
+            <div class="black">
+              <h1>Kalki 2898 AD</h1>
+              <h3>RATING : 7.6/10</h3>
+              <div class="genre">
+                <a href="#" class="category">Sci-fi</a>
+                <a href="#" class="category">Action</a>
+              </div>
+              <div class="swiper-btn">
+                <a href="movie_pg1.html#6"
+                  ><button type="button">Book Ticket</button></a
+                >
+                <a href="https://www.youtube.com/watch?v=kQDd1AhGIHk"
+                  ><button type="button">Watch Trailer</button></a
+                >
+              </div>
+            </div>
+            <img src="swiper_img/kalki-2898.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: {
+          delay: 3500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
+
+    <section id="movies"></section>
+    <section class="movies mainContainer">
+      <h2 class="heading2">Now Showing</h2>
+      <div class="movies-container"></div>
+    </section>
+
+    <section class="come">
+      <h2 class="heading3">Coming Soon</h2>
+      <div class="movies-container2">
+        <div class="box2">
+          <div class="box-img2">
+            <img src="poster_movie/mufasa.jpeg" />
+            <h3>Mufasa: The Lion King</h3>
+            <span> Adventure/Musical</span>
+          </div>
+        </div>
+
+        <div class="box2">
+          <div class="box-img2">
+            <img src="poster_movie/thangalaan.avif" />
+            <h3>Thangalaan</h3>
+            <span>134 min | Action/Drama </span>
+          </div>
+        </div>
+
+        <div class="box2">
+          <div class="box-img2">
+            <img src="poster_movie/ismart.avif" />
+            <h3>Double iSmart</h3>
+            <span>156 min | Action/Sci-fi</span>
+          </div>
+        </div>
+
+        <div class="box2">
+          <div class="box-img2">
+            <img src="poster_movie/jocker.avif" />
+            <h3>Joker: Folie à Deux</h3>
+            <span>138 min | Musical/Thriller</span>
+          </div>
+        </div>
+
+        <div class="box2">
+          <div class="box-img2">
+            <img src="poster_movie/goat.avif" />
+            <h3>GOAT</h3>
+            <span>115 min | Action/Sci-fi</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="footer">
+      <div class="logo-foot">
+        <img src="logo.png" alt="logo" />
+        <div class="text-container">
+          <h1 class="heading1">MoveJoy</h1>
+          <h3>Discover a new way to enjoy movies!</h3>
+          <a href="about.html" class="about-link">About Us</a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&#169; MoveJoy All Right Reserved</p>
+      </div>
+      <div class="social">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </section>
+    <script src="login.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
