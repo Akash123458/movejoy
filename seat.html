@@ -170,6 +170,10 @@
       </button>
     </div>
     <script>
+      const BASE_URL =
+        window.location.hostname === "localhost"
+          ? "http://localhost:3000"
+          : "https://movejoy.onrender.com";
       const payment = async () => {
         const authLink = document.getElementById("log");
         const token = localStorage.getItem("token");
@@ -178,7 +182,7 @@
           const amount = document.getElementById("total-price").textContent;
           console.log(amount);
           const response = await fetch(
-            "http://localhost:3000/create-payment-intent",
+            `${BASE_URL}$create-payment-intent`,
             {
               method: "POST",
               headers: {

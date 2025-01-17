@@ -39,9 +39,14 @@ document.addEventListener("DOMContentLoaded", function () {
 let movies = [];
 let showtimesData = [];
 
+const BASE_URL =
+  window.location.hostname === "localhost"
+    ? "http://localhost:3000"
+    : "https://movejoy.onrender.com";
+
 Promise.all([
-  fetch("http://localhost:3000/api/movies"),
-  fetch("http://localhost:3000/api/showtimes"),
+  fetch(`${BASE_URL}/api/movies`),
+  fetch(`${BASE_URL}/api/showtimes`),
 ])
   .then((responses) =>
     Promise.all(responses.map((response) => response.json()))

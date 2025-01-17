@@ -1,6 +1,6 @@
 //login logout
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("running");
+  console.log(process.env.JWT_SECRET);
   const authLink = document.getElementById("log");
   const token = localStorage.getItem("token");
 

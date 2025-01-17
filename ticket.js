@@ -1,6 +1,10 @@
 document.addEventListener("DOMContentLoaded", async function () {
   const urlParams = new URLSearchParams(window.location.search);
   const sessionId = urlParams.get("session_id");
+  const BASE_URL =
+    window.location.hostname === "localhost"
+      ? "http://localhost:3000"
+      : "https://movejoy.onrender.com";
   // Function to generate a booking ID
   function generateBookingID() {
     const characters = "ABCDEFGHJKLMNPQRSTUVWXYZ123456789";
@@ -13,20 +17,17 @@ document.addEventListener("DOMContentLoaded", async function () {
   }
   // Check if session already exists, otherwise, generate and save new session data
   if (sessionId) {
-    await fetch(
-      `http://localhost:3000/retrieve-checkout-session/${sessionId}`,
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({}),
-      }
-    )
+    await fetch(`${BASE_URL}/retrieve-checkout-session/${sessionId}`, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({}),
+    })
       .then((response) => response.json())
       .then((session) => {
         if (session.payment_status === "paid") {
-          fetch("http://localhost:3000/api/book-ticket", {
+          fetch(`${BASE_URL}/api/book-ticket`, {
             method: "POST",
             headers: {
               "Content-Type": "application/json",
@@ -55,7 +56,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         }
       });
   } else {
-    fetch("http://localhost:3000/api/ticket", {
+    fetch(`${BASE_URL}/api/ticket`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

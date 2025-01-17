@@ -31,6 +31,10 @@
     </form>
 
     <script>
+      const BASE_URL =
+        window.location.hostname === "localhost"
+          ? "http://localhost:3000"
+          : "https://movejoy.onrender.com";
       const stripe = Stripe(
         "pk_test_51OhlclSGBHW2aeqCx0d4ZK9W2Lx4RDk7Qg2uTyTCxyEuy1widBqdXC6fc3WLcOJdKAhx4KP4E4Zn6i272IuL6TE000WZNNGUZK"
       ); // Your Stripe publishable key
@@ -43,16 +47,13 @@
         event.preventDefault();
 
         // Call your backend to create the PaymentIntent
-        const response = await fetch(
-          "http://localhost:3000/create-payment-intent",
-          {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-            },
-            body: JSON.stringify({ amount: 1000 }), // Amount in cents
-          }
-        );
+        const response = await fetch(`${BASE_URL}/create-payment-intent`, {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ amount: 1000 }), // Amount in cents
+        });
 
         const { clientSecret } = await response.json();
 
